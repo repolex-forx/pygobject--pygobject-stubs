@@ -1,0 +1,11 @@
+{
+  "org": "pygobject",
+  "repo": "pygobject-stubs",
+  "versions": [
+    {
+      "commit": "16af78ff1ad0829f0a4cc53d931e7f92aafe9ea4",
+      "tag": "",
+      "parsed_at": "2026-11-06T04:29:06.270276+00:00"
+    }
+  ]
+}
