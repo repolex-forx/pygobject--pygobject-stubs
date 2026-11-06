@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/pygobject/pygobject-stubs/commit/16af78ff1ad0829f0a4cc53d931e7f92aafe9ea4",
       "git:hexsha": "16af78ff1ad0829f0a4cc53d931e7f92aafe9ea4",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-06T04:29:06.269767+00:00"
     },
     {
       "@id": "https://repolex.ai/r/pygobject/pygobject-stubs/commit/98c44e9288516e818f05c0aaf4b6d23f92e66e02",
