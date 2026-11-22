@@ -1,0 +1,24 @@
+[2026-11-22T01:55:30Z] === ENRICH ITERATION 1 START | repo=pygobject/pygobject-stubs sha=a691bb79 ===
+[2026-11-22T01:55:30Z] [iter=1] PHASE START: enrich repo=pygobject/pygobject-stubs sha=a691bb79 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a691bb79-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a691bb7915c432ebbf2cc01700a850b363b537bf.nq.gz
+[2026-11-22T01:55:33Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T01:57:14Z] [iter=1] AST store loaded triples=7705639 load_secs=99 mem_mb=980 MB
+[2026-11-22T01:57:14Z] [iter=1] Step 2: Finding LSP targets mem_mb=980 MB
+[2026-11-22T01:57:35Z] [iter=1] LSP targets found call_sites=665 imports=568 extends=1986 implements=0 secs=20
+[2026-11-22T01:57:55Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=980 MB
+[2026-11-22T01:58:24Z] [iter=1] Position index built positions=505439 nodes_with_types=627273 secs=29 mem_mb=1447 MB
+[2026-11-22T01:58:24Z] [iter=1] Step 3: Starting LSP resolution mem_mb=1447 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T01:58:24Z] [iter=1] Resolving target type target_type=call_site count=665
+[2026-11-22T01:58:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=0 resolved=0 errors=0 current=src/gi-stubs/repository/GExiv2.pyi
+[2026-11-22T01:58:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.5 files_done=2 resolved=43 errors=0 current=tools/generate.py
+[2026-11-22T02:01:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.2 files_done=3 resolved=358 errors=0 current=tools/update_all.py
+[2026-11-22T02:03:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=4 resolved=442 errors=0 current=src/gi-stubs/repository/_GdkWin323.pyi
+[2026-11-22T02:04:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.6 files_done=8 resolved=517 errors=0 current=src/gi-stubs/repository/_Gtk4.pyi
+[2026-11-22T02:04:15Z] [iter=1] Target type resolved target_type=call_site resolved=579 errors=0 secs=351 mem_mb=1453 MB
+[2026-11-22T02:04:15Z] [iter=1] Resolving target type target_type=import_statement count=568
+[2026-11-22T02:04:30Z] [iter=1] Target type resolved target_type=import_statement resolved=282 errors=0 secs=15 mem_mb=1453 MB
+[2026-11-22T02:04:30Z] [iter=1] Resolving target type target_type=extends_clause count=1986
+[2026-11-22T02:04:52Z] [iter=1] HEARTBEAT target_type=extends_clause elapsed_min=9.4 files_done=2 resolved=639 errors=0 current=src/gi-stubs/repository/_Gdk4.pyi
+[2026-11-22T02:05:17Z] [iter=1] Target type resolved target_type=extends_clause resolved=1986 errors=0 secs=48 mem_mb=1453 MB
+[2026-11-22T02:27:52Z] [iter=1] Step 5: Writing final enrichment file triples=525003
+[2026-11-22T02:27:56Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/a691bb7915c432ebbf2cc01700a850b363b537bf.nq.gz size_kb=11755
+[2026-11-22T02:27:56Z] [iter=1] PHASE END: enrich elapsed_s=1946 elapsed_min=32.4 total_triples=525003

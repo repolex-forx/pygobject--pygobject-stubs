@@ -363,6 +363,32 @@
       "ast": [
         "aggregate/ast/a691bb7915c432ebbf2cc01700a850b363b537bf/chunk-001.nq.gz",
         "aggregate/ast/a691bb7915c432ebbf2cc01700a850b363b537bf/chunk-002.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/a691bb7915c432ebbf2cc01700a850b363b537bf.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.16.0",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubCommit": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+          "githubTag": "4.16.0",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/build_meta.py"
+        }
       ]
     }
   ],
